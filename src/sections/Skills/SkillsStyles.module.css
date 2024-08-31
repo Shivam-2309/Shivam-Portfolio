@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  
+    span {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+  
+    img {
+      width: 20px;
+    }
+    span:hover {
+        text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+    }
+  }
+  
+  .skillList {
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    max-width: 40ch;
+  }
+  
+  hr {
+    width: 100px;
+    height: 1px;
+    border: none;
+    background-color: var(--text-color);
+    margin: 30px auto;
+  }
+
